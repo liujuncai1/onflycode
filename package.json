@@ -1,6 +1,12 @@
 {
+  "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js "
+    "start": "./node_modules/nodemon/bin/nodemon.js --debug=5858  server.js "
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.13.3",
+    "nodemon": "^1.11.0"
   }
 }
